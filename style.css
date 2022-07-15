@@ -1,0 +1,53 @@
+body{
+  background-color:#000;
+  color:#fff;
+  font-family: 'Barrio', cursive;
+  font-size:110px;
+  position:relative;
+  display:block;
+}
+
+.card{
+  background:#111;
+  height:400px;
+  margin:0 auto;
+  position:absolute;
+  text-align:center;
+  width:400px;
+  left:50%;
+  top:10%;
+  
+  transform:translateX(-50%);
+  
+  
+}
+
+p.title{
+  position:relative;
+  margin:0 auto;
+  line-height:400px;
+  z-index:500;
+}
+
+p.subtitle{
+  position:absolute;
+  margin:0 auto;
+  line-height:16px;
+  z-index:500;
+   font-size:16px;
+  top:255px;
+  
+  left:40px;
+}
+p.subtitle.hidden{
+  top:275px;
+  opacity:0;
+}
+canvas{
+  position:absolute;
+  top:0;
+  right:0;
+  left:0;
+  bottom:0;
+  z-index:20;
+}
